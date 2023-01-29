@@ -4,3 +4,11 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+
+module.exports = {
+  i18n: {
+    defaultLocale: "es", //idioma por defecto
+    locales: ['es', 'en'], //idiomas que soportará
+  }
+}
